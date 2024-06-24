@@ -9,8 +9,8 @@ const nextConfig = {
         pathname: "/img/**",
       },
     ],
-    domains: ["fakestoreapi.com"],
+    domains: ["fakestoreapi.com"], // https://fakestoreapi.com
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
